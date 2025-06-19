@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+   /* background: linear-gradient(to right, #74ebd5, #ACB6E5);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgb(92, 16, 231);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #071088;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a8d06;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
